@@ -1,0 +1,12 @@
+:root { 
+--r: 255;
+--g: 0;
+--b: 0;
+--rt: 255;
+--gt: 0;
+--bt: 0;
+ }
+h1{
+  text-shadow: 2px 2px 0px rgb(var(--r),var(--g),var(--b)),0 0 1em rgb(var(--r),var(--g),var(--b));
+  color: rgb(var(--rt),var(--gt),var(--bt));
+}
